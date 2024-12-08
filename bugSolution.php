@@ -1,0 +1,1 @@
+The solution lies in using strict comparison (`===`) instead of loose comparison (`==`). Strict comparison checks both value and type.  This ensures that the `if` condition only evaluates to true when both `$a` and `$b` are identical in both value and type. Replacing `==` with `===` in the `if` condition will prevent the unexpected execution of the code block.
